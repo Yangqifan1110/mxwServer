@@ -1,0 +1,1 @@
+pool.query('select mxw_company.name,mxw_tgoods.name goodName,mxw_company.id from mxw_company,mxw_tgoods where mxw_company.id=mxw_tgoods.company', (e,r)=>{
